@@ -152,7 +152,7 @@ If($remediatemob){
 
     ## Start the SSH service
     Write-ToConsole "...Starting SSH on $vmhost"
-    $sshService = Get-VmHostService -VMHost $vmhost | Where { $_.Key -eq ìTSM-SSHî}
+    $sshService = Get-VmHostService -VMHost $vmhost | Where { $_.Key -eq ‚ÄúTSM-SSH‚Äù}
     Start-VMHostService -HostService $sshService -Confirm:$false | Out-Null
         
     Write-ToConsole "...Disabling MOB on $vmhost"
