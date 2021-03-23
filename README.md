@@ -4,6 +4,17 @@ The DoD Security Technical Implementation Guide ('STIG') ESXi Script assists in 
 **Notes:**
 - These scripts assume you have the [DOD STIG VIB](https://flings.vmware.com/dod-security-technical-implementation-guide-stig-esxi-vib) installed already.
 
+
+### Script Examples:
+```powershell
+./VMware_vSphere_6.7_STIG_Compliance_Report.ps1
+```
+```powershell
+./VMware_vSphere_6.7_VM_STIG_Remediation.ps1 -all
+```
+```powershell
+./VMware_6.7_STIG_Remediate_ESXi.ps1 -hostname vc.example.com
+```
 ### Requirements:
 - [PowerCLI 11.3](https://www.powershellgallery.com/packages/VMware.PowerCLI/11.3.0.13990089)
 - [Powershell 5](https://docs.microsoft.com/en-us/skypeforbusiness/set-up-your-computer-for-windows-powershell/download-and-install-windows-powershell-5-1)
