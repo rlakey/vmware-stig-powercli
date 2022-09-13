@@ -1,2 +1,2 @@
 # vmware-stig-powercli
-PowerCLI Check and Remediation scripts for VMware
+Please visit https://github.com/vmware/dod-compliance-and-automation for updated content
